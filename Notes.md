@@ -1,3 +1,4 @@
 - antonio_mo @ scribus-user.de/forum
   - Der Monitor ist nicht kallibriert : In dem Fall solltest Du sRGB wählen
   - Warum wählst Du genau dieses ICC-Profil? Hast Du es von Deinem Druckdienstleister aus den Druckbedingungen abgelesen?
+- ein Textschwarz ist irgendwie anders definiert als normales 100%-Schwarz, vielleicht Rich Black oder so. Das nimmt man für große Schwarzflächen, die tiefschwarz erscheinen sollen, aber keinesfalls für Fließtext. (tipper @ scribus-user.de/forum)

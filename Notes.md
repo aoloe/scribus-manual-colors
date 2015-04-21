@@ -1,4 +1,5 @@
 - http://www.scribus-user.de/forum/viewtopic.php?f=7&t=104
+- http://www.scribus-user.de/forum/viewtopic.php?f=7&t=101
 - antonio_mo @ scribus-user.de/forum
   - Der Monitor ist nicht kallibriert : In dem Fall solltest Du sRGB wählen
   - Warum wählst Du genau dieses ICC-Profil? Hast Du es von Deinem Druckdienstleister aus den Druckbedingungen abgelesen?

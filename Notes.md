@@ -20,3 +20,17 @@
 
 ## Using Scribus to produce CMYK output for Inkscape artwork
 
+The workflow is as follows:
+
+- get the ICC-profile your prospective printing centre recommends and link it in Inkscape ("Document Properties" → "Color Management")
+- create your colors as "fill:#dc3125 icc-color(ISO-Coated-v2--ECI-, 0.01, 0.96, 0.90, 0.03)", i.e. RGB and profile-specific CMYK at the same time (but, is there an UI widget for it?)
+- when assigning colors to objects first go to the CMS tab and choose the right profile
+- save the file as plain SVG
+- import the resulting SVG in Scribus
+- choose the right ICC-profile in "Document Setup" → "Color Management"
+- go to "Save as PDF" and before clicking "Save" choose "Color" → "... intended for: Printer"
+
+resources:
+
+- http://libregraphicsworld.org/blog/entry/getting-cmyk-colors-from-inkscape-to-scribus
+- https://fedoraproject.org/wiki/How_to_set_CMYK_color_on_a_design_for_printing

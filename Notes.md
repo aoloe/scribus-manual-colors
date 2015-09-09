@@ -34,3 +34,4 @@ resources:
 
 - http://libregraphicsworld.org/blog/entry/getting-cmyk-colors-from-inkscape-to-scribus
 - https://fedoraproject.org/wiki/How_to_set_CMYK_color_on_a_design_for_printing
+- http://bugs.scribus.net/view.php?id=3111

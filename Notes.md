@@ -18,6 +18,15 @@
 - with [extractICCprofiles.ps](http://code.openhub.net/file?fid=5ljC1ULaksYuKdlOp4Cjsq6EEVY&cid=AoGmYCR5TcA&s=&fp=293147&mp&projSelected=true#L0) from the ghostscript project you can check if / which color profiles are in your document.  
   for a definitive analysis, you should probably use a professional preflight tool... or at least adobe acrobat. 
 
+
+If you have activated the Color Management and you are using "Printer" as a target in the PDF export , Scribus will convert all the colors to the target color profile. Since the colors are now been converted, the ICC profile is not embedded in the PDF file.
+
+If you check the _Use Color Profile_ option for _Solid Colors_, the colors are not converted to the target profile and the profile itself is embedded into the PDF, so that it can be considered in the further processing steps.  
+The same applies for the _Use color Profile_ option in the _Images_ section. 
+
+If you your printer did not specify otherwise, the default behavior, with no ICC profile embedded, is what you are looking for.
+
+
 ## Using Scribus to produce CMYK output for Inkscape artwork
 
 The workflow is as follows:

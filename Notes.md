@@ -9,6 +9,31 @@
   Wie aber hie rim aktuellen Fall zu sehen ist, sollte das nur jemand machen der weiss wie man saubere druckvorstufentaugliche PDFs erstellt, denn ein PDF/X ist kein Garant das es auch ein konformes PDF/X ist.  
   Ohne Preflight sollte eigentlich kein PDF in eine Druckerei geben. (antonio_mo @ scribus-user.de/forum)
 
+## Applying colors
+
+### Applaying colors to shapes and frames
+
+in the properties palette you have a color tab with two "sub-tabs": fill and outline
+
+here you can set the color for the border and the fill of the frame.
+
+if you want a borderless frame or shape:
+
+- you can set the same color for the outline and the fill
+- or set the color of the fill to "none" (in this case, you will have a "smaller" shape)
+
+Scribus cannot create borderless shapes (and it seems that other DTP programs that pretend to so, simply hide the border from you without removing it).
+
+### Applying colors to text
+
+
+
+## Transparencies
+
+## Gradients
+
+not well supported in most PDF version
+
 ## Color management
 
 - the color management options in the PDF export dialog are only useful when target profiles are different from document profiles

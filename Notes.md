@@ -8,6 +8,8 @@
 - fast alle Druckereien wollen ein CMYK-PDF haben und geben ein PDF/X-3 vor was irrsinnig ist, weil diese PDF/X Spezifikation auch RGB in der PDF-Datei zulässt, daher sollte man ein PDF/X-1a immer vorziehen.  
   Wie aber hie rim aktuellen Fall zu sehen ist, sollte das nur jemand machen der weiss wie man saubere druckvorstufentaugliche PDFs erstellt, denn ein PDF/X ist kein Garant das es auch ein konformes PDF/X ist.  
   Ohne Preflight sollte eigentlich kein PDF in eine Druckerei geben. (antonio_mo @ scribus-user.de/forum)
+- [My Open Source Photography Workflow](http://www.rileybrandt.com/2015/10/15/foss-photo-flow-2015/)
+
 
 ## Applying colors
 

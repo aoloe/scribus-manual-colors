@@ -71,3 +71,7 @@ resources:
 - http://libregraphicsworld.org/blog/entry/getting-cmyk-colors-from-inkscape-to-scribus
 - https://fedoraproject.org/wiki/How_to_set_CMYK_color_on_a_design_for_printing
 - http://bugs.scribus.net/view.php?id=3111
+
+## Grayscale
+
+jghali: RGB images can be grayscale (3 channel/pixel) or real grascale (1 channel/pixel). for real grayscale, scribus in fact does nto use profiles and convert grayscale directly to black, which is usually the expected behavior in professional layout. separation with gimp will convert grayscale to cmyk using 4 inks, may provide better contrast, but won't be good for print stability

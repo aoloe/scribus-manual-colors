@@ -38,6 +38,8 @@ not well supported in most PDF version
 
 ## Color management
 
+see also <http://bugs.scribus.net/view.php?id=13346>
+
 - the color management options in the PDF export dialog are only useful when target profiles are different from document profiles
 - if you check the "embed profile for solid colors" options, the colors are inserted as is in the pdf and it's the viewer who will have to "apply" the profile. (no conversion of the RGB colors to CMYK)
 - otherwise scribus makes sure that the color are defined in a way that matches the target (and converts them to cmyk if needed.  

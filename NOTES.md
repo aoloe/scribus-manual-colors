@@ -55,6 +55,7 @@ The same applies for the _Use color Profile_ option in the _Images_ section.
 
 If you your printer did not specify otherwise, the default behavior, with no ICC profile embedded, is what you are looking for.
 
+It seems that for PDF/X export, _Use color Profile_ is checked and grayed out for images: that would mean that Scribus cannot convert the images to CMYK and expects the images to already be in CMYK or let them convert by the printer to CMYK according to the embedded profile.
 
 ## Using Scribus to produce CMYK output for Inkscape artwork
 

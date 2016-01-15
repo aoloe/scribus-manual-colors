@@ -78,3 +78,12 @@ resources:
 ## Grayscale
 
 jghali: RGB images can be grayscale (3 channel/pixel) or real grascale (1 channel/pixel). for real grayscale, scribus in fact does nto use profiles and convert grayscale directly to black, which is usually the expected behavior in professional layout. separation with gimp will convert grayscale to cmyk using 4 inks, may provide better contrast, but won't be good for print stability
+
+## rgb to cmyk
+
+abusing scribus for converting images from rgb to cmyk:
+- create a document with the rgb images
+- activate the color management
+- export to PDF 1.4 with printer as the target
+- use `pdfimages --tiff` to export to tiff
+- include the new images in your document.

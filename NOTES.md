@@ -103,6 +103,14 @@ There must be a paste somewhere else...
 
 ### Converting from RGB and CMYK
 
+This section explains what is happening when you change back and forth between the RGB and CMYK representation of a color.
+
+This is not explain how Scribus works for your real work, since you're not supposed to convert the colors in this way.
+
+If the color matching matters to you, you should use the color code for the color space used in the document and let the color management do its work when exporting to PDF.
+
+Anyway, here some explaination for you...
+
 
 (Extract/transcript of a discussion between ScribusNoob and jghali on 23.02.2016, starting at 14:57 CET)
 

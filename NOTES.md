@@ -145,3 +145,49 @@ wouldn't it be better in this case to also offer values between 0 and 255 for th
 
 - The answer:
 and we cannot prevent someone typing "81%" anyway, and users used to CMYK want to have values between 0 and 100 (lots of pro working in printing industry do not even understand the RGB scale between 0 and 255)
+
+## Paper color
+
+on april 25, 2016, vlada writes to the mailing list:
+
+Every color you want to print will add on top of another. If you print
+yellow and lay down some blue on top of i, you'll end up with some shade of
+green. You can do that as many times as you want and the result will be
+always a step closer to a "rich" black. Normally, for acceptable
+cost/efficiency ratio, we have CMYK (cyan+magenta+yellow+k) standard. Look
+at Wikipedia for more information about it. You have hit the problem of
+base color. It is simply assumed that underlying color is paper's white.
+Everything is being build on top of it, quite literary.
+
+Of course, you are not the first having an idea of printing on top of some
+other color. Therefore, printers started using white pigment for making
+special - white - color. Note the word Special here. We will return to that
+soon. If you don't specify that you want old, timed, recycled, yellowish
+paper, printers (both the people that operate printing presses and desktop
+printers) will ASSUME you want it printed on plain white paper. If you
+don't want that to happen, you should then go to a printing press operator
+and handle your "special" paper to him. But, at that moment he makes one
+more ASSUMPTION for you and that is that you want it to be printed using
+CMYK method. Computer programs for prepress make those two assumptions for
+you too. The background on your working canvas in Scribus is white -
+non-printabe. And the colors you use are in CMYK.
+
+What if you want to give printer your toothpaste, shoe polish or your
+favourite perfume to print with that? It's possible, but you will not get
+desired results with CMYK, of course. You have to define SPECIAL case. It's
+the same with your white. In Scribus you should define specal color, called
+Spot color, name it "White", and use it to fill objects with it. That's
+already covered in detains in many other places. Part of it has been
+documented in official documentation under Color Palettes.
+
+What is also very important to you here is that it seems that white
+background of an image is being treated in two ways:
+1) Exactly as transparent, when put on canvas directly. There is no
+distinction if your image has transparent background or not.
+2) Removing other colors underneath it, when placed on top over some other
+Scribus' item. Now there is a distinction. If your image contains
+transparent pixels, underneath objects will appear where transparent. If it
+were opaque, white background of your image will expose paper color at that
+places.
+
+In reality, white just exposes paper color.

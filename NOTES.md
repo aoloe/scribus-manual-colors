@@ -148,6 +148,9 @@ and we cannot prevent someone typing "81%" anyway, and users used to CMYK want t
 
 ## Paper color
 
+- In scribus you can define a paper color in the document settings. The color will be shown on the canvas but not exported to pdf.
+- In the remote case, you might want to set a solid color that should be pritned, you will have to draw a colored rectange on a background layer.
+
 on april 25, 2016, vlada writes to the mailing list:
 
 Every color you want to print will add on top of another. If you print

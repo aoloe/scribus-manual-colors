@@ -217,3 +217,13 @@ next step? activating the color management using it for creating the PDF..
 further step? asking the printer for the ICC profiles you should use.  
 even further? get your monitor profiled and your room under controlled light.  
 and once you will have got through all this, you will have learned enough about colors that you can start thinking about directly working with CMYK colors... you still feel it's a good idea (for the given project)
+
+## ICC Color profiles
+
+or the monitor calibration you need a physical tool, that will measure your monitor.
+
+if your print shop cannot provide a profile, just use what they say to use.
+
+it won't be exact, but will probably give you an ok result.
+
+with a bit of experience (read a few tasks having been done at the same print shop) you will know how a color on your screen relates to the result on paper.

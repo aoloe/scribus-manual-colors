@@ -194,3 +194,26 @@ were opaque, white background of your image will expose paper color at that
 places.
 
 In reality, white just exposes paper color.
+
+## CMYK
+
+if you don't know how to manage the colors, stick to RGB colors and talk to your print shop to figure out how he can help you to print the color the way you want them.
+
+if your monitor is not profiled, all you can start with, is being very conservative with colors and ask for a proof and check if it's ok for you.
+
+you have an RGB monitor and want the colors to be printed in CMYK on a printer.
+
+you can do the conversion from the one space color to the other or you can let the print shop do it for you.
+
+you can do the conversion from the one space color to the other or you can let the print shop do it for you.  
+if you're a beginner, you should let the printer do the conversion or, at least, do it as late in the process as possible.
+
+there is no black magic involved, but there are a few things to learn. more than i could ever teach you.
+
+the short version is: if you do not have a specific CMYK color defined in your visual identitfy (or if your printer asks you to use CMYK colors), just forget about directly using CMYK colors and go for the RGB ones.  
+if the printer does not accept the RGB PDF, simply get scribus to convert your colors to CMYK by using the fitting color profiles (ICC)
+
+next step? activating the color management using it for creating the PDF..  
+further step? asking the printer for the ICC profiles you should use.  
+even further? get your monitor profiled and your room under controlled light.  
+and once you will have got through all this, you will have learned enough about colors that you can start thinking about directly working with CMYK colors... you still feel it's a good idea (for the given project)

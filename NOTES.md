@@ -10,6 +10,11 @@
   Ohne Preflight sollte eigentlich kein PDF in eine Druckerei geben. (antonio\_mo @ scribus-user.de/forum)
 - [My Open Source Photography Workflow](http://www.rileybrandt.com/2015/10/15/foss-photo-flow-2015/)
 
+## Scribus has so few colors
+
+With Scribus you're supposed to create your own colors that match your creativity / visual identity. (edit > colors)
+
+The few pre-defined colors are helpful for the first steps and tests, but then you should really load work with your colors or your swatches!
 
 ## Applying colors
 

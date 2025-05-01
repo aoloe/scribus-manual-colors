@@ -232,3 +232,11 @@ if your print shop cannot provide a profile, just use what they say to use.
 it won't be exact, but will probably give you an ok result.
 
 with a bit of experience (read a few tasks having been done at the same print shop) you will know how a color on your screen relates to the result on paper.
+
+## Spot colors
+
+Scribus only supports spot color for native shapes.
+
+Applying color effects with spot colors to images will not work as expected.
+
+The only image format that seems to support spot colors is PSD. But Scribus does not seem to support spot colors in them.
